@@ -1,0 +1,34 @@
+body{
+    background-color: #89d2dc;
+    font-family: "Raleway";
+}
+
+.exercice{
+  color:   #272932;
+  background-color: #6564db;
+  display: block;
+  width: 100%;
+  height: 140px;
+  text-align: center;
+  padding-top: 15px;
+}
+
+p{ font-size: 18px; }
+
+h1{ font-size: 30px; }
+
+.color{
+  float: left;
+  width: 20px;
+  height: 20px;
+  margin : 15px;
+}
+.green{
+  background-color: green;
+}
+.red{
+    background-color: red;
+}
+.blue{
+    background-color: blue;
+}
