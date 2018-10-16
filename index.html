@@ -27,15 +27,16 @@
 
 <script>
 
-  $("#green").hover(function(){
-    $("#text").css("color","green");
-    $(".exercice").css("backgroundColor", "green");
+  $("#green").hover(function(){ // hover pour le passage de la souris sur la div
+    $("#text").css("color","green"); // changement de couleur du texte
+    $(".exercice").css("backgroundColor", "green"); // changement de la couleur du fond de la div exercice
   })
-  $("#green").mouseleave(function(){
-    $("#text").css("color","black");
-    $(".exercice").css("backgroundColor", "#6564db");
+  $("#green").mouseleave(function(){ // mouseleave pour la sortie de la souris de la div
+    $("#text").css("color","black"); // changement de couleur du texte
+    $(".exercice").css("backgroundColor", "#6564db"); // changement de la couleur du fond de la div exercice
   })
 
+// meme procédé pour les autres changement de couleur
   $("#red").hover(function(){
     $("#text").css("color","red");
     $(".exercice").css("backgroundColor", "red");
